@@ -1,2 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 1.2rem;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto;
+    grid-gap: 9rem;
+    height: fit-content;
+    width: 60vw;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile{
+    display: grid;
+    grid-template-rows:repeat(2,auto) ;
+    grid-template-columns:auto;
+    background-color: white;
+    height: fit-content;
+    width: 360px;
+    padding: 0.7rem;
+    border-radius: 30px;
+    box-shadow: 10px 10px 50px hsl(268, 12%, 79%);
+}
+.top{
+    background-color: hsl(275, 97%, 76%);
+    border-radius: 30px 30px 8px 8px;
+    color: white;
+}
+.mob-cam{
+    height: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    margin: 0 90px 0 90px;
+}
+
+.header{
+    display:grid;
+    grid-template-columns: 40px auto;
+    grid-template-rows: auto;
+    grid-gap: 0.7rem;
+    padding: 1rem;
+}
+
+.avatar img{
+    border-radius: 50%;
+    height: 40px;
+    border: 2px solid white;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 0.2rem;
+}
+
+.messages{
+    display: grid;
+    grid-template-rows: repeat(8,auto);
+    grid-gap: 0.7rem;
+    background-color: hsl(202, 31%, 93%);
+    height: fit-content;
+    padding: 1rem;
+    border-radius:8px 8px 30px 30px;
+}
+
+.received{
+    background-color: hsl(276, 66%, 90%);
+    width: 220px;
+    color: hsl(276, 55%, 52%);
+}
+
+.sent{
+    background-color: white;
+    color: hsl(271, 15%, 43%);
+    width: 220px;
+    justify-self: right;
+    box-shadow: 5px 5px 10px hsl(268, 12%, 79%);
+}
+
+.dogs{
+    display: grid;
+    grid-template-columns: repeat(3,65px);
+    grid-template-rows: 65px;
+    grid-gap: 1rem;
+    justify-self: right;
+}
+
+.dogs img{
+    height: 65px;
+    border-radius: 11px;
+}
+
+.offer{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto;
+    background-color: hsl(276, 54%, 77%);
+    color: white;
+    padding: 1.2rem;
+    padding-right: 2rem;
+    border-radius: 15px 15px 15px 6px ;
+    width: 260px;
+}
+.money{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+}
+.type{
+    background-color: white;
+    color: hsl(270, 7%, 64%);
+    padding: 1rem;
+    padding-left: 3rem;
+}
+
+.received, .sent, .type{
+    padding: 0.7rem;
+    border-radius: 15px;
+}
+
+.type{
+    background-color: white;
+    color: hsl(270, 7%, 64%);
+    padding: 1rem;
+    padding-left: 2rem;
+}
+
+.heading{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 4rem;
+    padding-bottom: 2rem;
+    color: hsl(271, 36%, 24%);
+}
+.content{
+    color: hsl(270, 7%, 64%);
+    font-size: 20px;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
