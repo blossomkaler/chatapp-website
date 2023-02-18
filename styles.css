@@ -8,28 +8,6 @@
     font-size: 10px;
     line-height: 1.2rem;
 }
-.body{
-    height: 100vh;
-    width: 100vw;
-}
-
-.bg-shape{
-    height: 700px;
-    width: 550px;
-    background-image: linear-gradient(to right,  hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
-    border-radius: 0 0 50% 47%;
-    margin-left: -14rem;
-}
-
-.bg-shape2{
-    height: 699px;
-    width: 350px;
-    background-color: hsl(276, 100%, 97%);
-    border-radius: 70% 0 0 0;
-    float: right;
-    margin-top: -60rem;
-    margin-bottom: 0;
-}
 
 .container{
     display: grid;
@@ -96,6 +74,7 @@
     font-weight: 500;
     padding-bottom: 0.2rem;
 }
+
 .sub-head{
     color: hsl(276, 100%, 81%);
 }
@@ -206,6 +185,24 @@
     color: hsl(270, 7%, 64%);
     font-size: 20px;
     line-height: 2.5rem;
+}
+
+.bg-shape{
+    height: 680px;
+    width: 550px;
+    background-image: linear-gradient(to right,  hsl(264, 100%, 61%) , hsl(293, 100%, 63%));
+    border-radius: 0 0 50% 47%;
+    margin-left: -14rem;
+}
+
+.bg-shape2{
+    height: 74vh;
+    width: 350px;
+    background-color: hsl(276, 100%, 97%);
+    border-radius: 70% 0 0 0;
+    float: right;
+    margin-top: -47.4rem;
+    margin-bottom: 0;
 }
 
 /***********************************************************************************************/
