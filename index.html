@@ -6,23 +6,30 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
-  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>CHATAPP</title>
 
    
 </head>
 <body>
+  <div class="bg-shape"></div>
 
   <div class="container">
     <div class="mobile">
       <div class="top">
         <div class="mob-cam">xx</div>
-        <div class="header"> 
+
+        <div class="header">
+          <i class="fa-solid fa-angle-left"></i>
+
           <div class="avatar"><img src="/images/avatar.jpg" alt="avatar"></div>
     
           <div>
             <div class="name">Samuel Green</div>
-            <div>Available to Walk</div>
-          </div> 
+            <div class="sub-head">Available to Walk</div>
+          </div>
+          
+          <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>  
 
       </div>
@@ -30,30 +37,37 @@
       <div class="messages">
         <div class="received">That sounds great. I’d be happy with that.</div>
         <div class="received">Could you send over some pictures of your dog, please?</div>
+        
         <div class="dogs">
           <div><img src="/images/dog-image-1.jpg" alt=""></div>
           <div><img src="/images/dog-image-2.jpg" alt=""></div>
           <div><img src="/images/dog-image-3.jpg" alt=""></div>
         </div>
         <div class="sent">Here are a few pictures. She’s a happy girl!</div>
-        <div class="sent">Can you make it?</div>
+        <div class="sent ques">Can you make it?</div>
         <div class="received">She looks so happy! The time we discussed works. How long shall I take her out for?</div>
   
         <div class="offer">
+          <i class="fa-regular fa-circle"></i>
           <div class="time">30 minute walk</div>
           <div class="money"> $29</div>
         </div>
   
         <div class="offer">
+          <i class="fa-regular fa-circle"></i>
           <div class="time">1 hour walk</div>
           <div class="money">$49</div>
         </div>
 
-        <div class="type">Type a message…</div>
+        <div class="type-block">
+          <div class="type">Type a message…</div>
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+
       </div>
     </div>
 
-    <div>
+    <div class="matter">
       <div class="heading">Simple booking</div>
       <div class="content">
         Stay in touch with our dog walkers through the chat interface. This makes it easy to 
