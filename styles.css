@@ -123,7 +123,7 @@
 
 .offer{
     display: grid;
-    grid-template-columns: repeat(3,auto);
+    grid-template-columns: 23px auto auto;
     grid-template-rows: auto;
     background-image: linear-gradient(to right,hsl(293, 100%, 63%),  hsl(264, 100%, 61%) );
     color: white;
@@ -131,6 +131,7 @@
     padding-right: 2rem;
     border-radius: 10px 10px 10px 6px ;
     width: 180px;
+    text-align: left;
 }
 .fa-thin{
     font-size: 20px;
@@ -138,6 +139,7 @@
 
 .fa-circle{
     font-size: 15px;
+    color:hsl(293, 85%, 79%);
 }
 .time{
     padding-top: 0.2rem;
@@ -246,6 +248,15 @@
     margin-top: -15rem;
     margin-bottom: 0;
 }
+
+.container{
+    padding: 10rem 3rem;
+}
+
+.heading{
+    font-size: 40px;
+}
+
 
 }
 
